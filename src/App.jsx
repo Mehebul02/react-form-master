@@ -3,20 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ReusebleForm from './Reusebleform/ReusebleForm'
+import GrandPa from './GrandPa/GrandPa'
 // import ReusebleForm from './Reusebleform/ReusebleForm'
 // import StateFullForm from './Components/Statefullform/StateFullForm'
 // import HooksForm from './Components/useInputState/HooksForm'
 // import RefForm from './RefForm/RefForm'
 // import SimpleForm from './Components/SimpleForm'
-<ReusebleForm></ReusebleForm>
+{/* <ReusebleForm></ReusebleForm> */}
 
 function App() {
-  const handleSingUpSubmit =data=>{
-    console.log('Sing data',data)
-  }
-  const handleUppdateSubmit =data=>{
-   console.log('uppdate data',data)
-  }
+  // const handleSingUpSubmit =data=>{
+  //   console.log('Sing data',data)
+  // }
+  // const handleUppdateSubmit =data=>{
+  //  console.log('uppdate data',data)
+  // }
 
   return (
     <>
@@ -24,7 +25,7 @@ function App() {
      {/* <StateFullForm></StateFullForm> */}
      {/* <RefForm></RefForm> */}
      {/* <HooksForm></HooksForm> */}
-     <ReusebleForm formTitle={'Sing Up'}
+     {/* <ReusebleForm formTitle={'Sing Up'}
       handleSubmit={handleSingUpSubmit}>
         <h1>Sing Up</h1>
         <p>This is the sing up page</p>
@@ -34,7 +35,9 @@ function App() {
       submitBtnText='update'>
         <h1>Update Profile</h1>
         <p>This is the profile</p>
-      </ReusebleForm>
+      </ReusebleForm> */}
+      <h1>Form Master</h1>
+      <GrandPa></GrandPa>
     
      
     </>
