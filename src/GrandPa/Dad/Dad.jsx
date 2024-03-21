@@ -4,12 +4,12 @@ import Sister from "../Myself/Brother/Sister/SIster";
 
 
 
-const Dad =()=>{
+const Dad =({assed})=>{
     return (
         <div>
 <h1>Dad</h1>
 <div>
-  <MySelf></MySelf>
+  <MySelf assed={assed}></MySelf>
     <Brother></Brother>
     <Sister></Sister>
 </div>
