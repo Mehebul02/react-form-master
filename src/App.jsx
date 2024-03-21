@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import StateFullForm from './Components/Statefullform/StateFullForm'
+import HooksForm from './Components/useInputState/HooksForm'
+// import RefForm from './RefForm/RefForm'
 // import SimpleForm from './Components/SimpleForm'
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
   return (
     <>
     {/* <SimpleForm/> */}
-     <StateFullForm></StateFullForm>
+     {/* <StateFullForm></StateFullForm> */}
+     {/* <RefForm></RefForm> */}
+     <HooksForm></HooksForm>
      
     </>
   )
